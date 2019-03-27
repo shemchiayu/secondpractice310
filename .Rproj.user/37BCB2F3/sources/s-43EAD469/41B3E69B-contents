@@ -80,8 +80,25 @@ TWDT <- ymd("2018-09-11")
 TWDT <- mdy("March 3, 2019")
 ```
 
+
+
+```{r}
 ```{r}
 LisbonDateTime <- ymd("2018-09-11")
+a <- c(1, 5, -3)
+b <- c(0.5, 12, 2)```
+```
+
+```{r}
+a <- c(1, 5, -3)
+b <- c(0.5, 12, 2)
+aL <- c(1L, 5L, -3L)
+bL <- c(-2L, -4L, 8L)
+```
+
+```{r}
+class(a-bL)
+class(aL*bL)
 ```
 
 Try executing this chunk by clicking the *Run* button within the chunk or by placing your cursor inside it and pressing *Ctrl+Shift+Enter*. 
