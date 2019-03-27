@@ -1,0 +1,2 @@
+"0","twDateTime<-ymd_hms(""2019-03-27 15:43:10"", tz=""Asia/Taipei"")"
+"0","OsloDateTime<-with_tz(twDateTime, tzone=""Europe/Oslo"")"

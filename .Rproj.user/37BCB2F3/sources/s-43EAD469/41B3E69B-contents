@@ -24,6 +24,35 @@ class(dtObject)
 Sys.timezone()
 ```
 
+```{r}
+Sys.timezone()
+```
+
+```{r}
+twDateTime <- ymd_hms("2019-03-18 14:04:00", tz="Asia/Taipei")
+```
+
+```{r}
+twDateTime<-ymd_hms("2019-03-27 15:43:10", tz="Asia/Taipei")
+OsloDateTime<-with_tz(twDateTime, tzone="Europe/Oslo")
+```
+
+```{r}
+typeof(prdt)
+as.double(twdt)
+as.double(prdt)
+```
+
+```{r}
+twDateTime <- ymd_hms("2019-03-18 15:45:00", tz="Asia/Taipei")
+AustraliaDateTime <- with_tz(twDateTime,tzone="Australia/LHI")
+```
+
+```{r}
+twDateTime <- ymd_hms("2019-03-18 14:04:00", tz="Asia/Taipei")
+LisbonDateTime <- with_tz(twDateTime,tzone="Europe/Lisbon")
+```
+
 Try executing this chunk by clicking the *Run* button within the chunk or by placing your cursor inside it and pressing *Ctrl+Shift+Enter*. 
 
 ```{r}

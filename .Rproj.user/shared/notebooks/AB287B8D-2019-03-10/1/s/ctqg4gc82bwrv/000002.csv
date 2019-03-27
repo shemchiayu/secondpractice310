@@ -1,0 +1,2 @@
+"0","twDateTime <- ymd_hms(""2019-03-18 15:45:00"", tz=""Asia/Taipei"")"
+"0","AustraliaDateTime <- with_tz(twDateTime,tzone=""Australia/LHI"")"

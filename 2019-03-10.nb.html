@@ -177,6 +177,105 @@ $(document).ready(function () {
 
 <!-- rnb-text-begin -->
 <p>This is an <a href="http://rmarkdown.rstudio.com">R Markdown</a> Notebook. When you execute code within the notebook, the results appear beneath the code.</p>
+<!-- rnb-text-end -->
+<!-- rnb-chunk-begin -->
+<!-- rnb-source-begin eyJkYXRhIjoiYGBgclxubGlicmFyeShsdWJyaWRhdGUpXG5gYGAifQ== -->
+<pre class="r"><code>library(lubridate)</code></pre>
+<!-- rnb-source-end -->
+<!-- rnb-output-begin eyJkYXRhIjoicGFja2FnZSDmhLzjuLHmhLzjuLVsdWJyaWRhdGXmhLzjuLHmhLzjuLYgd2FzIGJ1aWx0IHVuZGVyIFIgdmVyc2lvbiAzLjUuM1xuQXR0YWNoaW5nIHBhY2thZ2U6IOaEvOO4seaEvOO4tWx1YnJpZGF0ZeaEvOO4seaEvOO4tlxuXG5UaGUgZm9sbG93aW5nIG9iamVjdCBpcyBtYXNrZWQgZnJvbSDmhLzjuLHmhLzjuLVwYWNrYWdlOmJhc2XmhLzjuLHmhLzjuLY6XG5cbiAgICBkYXRlXG4ifQ== -->
+<pre><code>package 愼㸱愼㸵lubridate愼㸱愼㸶 was built under R version 3.5.3
+Attaching package: 愼㸱愼㸵lubridate愼㸱愼㸶
+
+The following object is masked from 愼㸱愼㸵package:base愼㸱愼㸶:
+
+    date</code></pre>
+<!-- rnb-output-end -->
+<!-- rnb-source-begin eyJkYXRhIjoiYGBgclxuZHRPYmplY3Q8LXltZF9obXMoXCIxOTcwLTAxLTAxIDAwOjAyOjUzXCIpXG5gYGAifQ== -->
+<pre class="r"><code>dtObject&lt;-ymd_hms(&quot;1970-01-01 00:02:53&quot;)</code></pre>
+<!-- rnb-source-end -->
+<!-- rnb-chunk-end -->
+<!-- rnb-text-begin -->
+<!-- rnb-text-end -->
+<!-- rnb-chunk-begin -->
+<!-- rnb-source-begin eyJkYXRhIjoiYGBgclxuZHRPYmplY3RWZWN0b3I8LXltZF9obXMoXG4gIGMoXCIxOTcwLTAxLTAxIDAwOjAyOjUzXCIsXG4gICAgXCIxOTgwLTAyLTExIDExOjI1OjIyXCIpXG4pXG5gYGAifQ== -->
+<pre class="r"><code>dtObjectVector&lt;-ymd_hms(
+  c(&quot;1970-01-01 00:02:53&quot;,
+    &quot;1980-02-11 11:25:22&quot;)
+)</code></pre>
+<!-- rnb-source-end -->
+<!-- rnb-chunk-end -->
+<!-- rnb-text-begin -->
+<!-- rnb-text-end -->
+<!-- rnb-chunk-begin -->
+<!-- rnb-source-begin eyJkYXRhIjoiYGBgclxuY2xhc3MoZHRPYmplY3QpXG5gYGAifQ== -->
+<pre class="r"><code>class(dtObject)</code></pre>
+<!-- rnb-source-end -->
+<!-- rnb-output-begin eyJkYXRhIjoiWzFdIFwiUE9TSVhjdFwiIFwiUE9TSVh0XCIgXG4ifQ== -->
+<pre><code>[1] &quot;POSIXct&quot; &quot;POSIXt&quot; </code></pre>
+<!-- rnb-output-end -->
+<!-- rnb-chunk-end -->
+<!-- rnb-text-begin -->
+<!-- rnb-text-end -->
+<!-- rnb-chunk-begin -->
+<!-- rnb-source-begin eyJkYXRhIjoiYGBgclxuU3lzLnRpbWV6b25lKClcbmBgYCJ9 -->
+<pre class="r"><code>Sys.timezone()</code></pre>
+<!-- rnb-source-end -->
+<!-- rnb-output-begin eyJkYXRhIjoiWzFdIFwiQXNpYS9UYWlwZWlcIlxuIn0= -->
+<pre><code>[1] &quot;Asia/Taipei&quot;</code></pre>
+<!-- rnb-output-end -->
+<!-- rnb-chunk-end -->
+<!-- rnb-text-begin -->
+<!-- rnb-text-end -->
+<!-- rnb-chunk-begin -->
+<!-- rnb-source-begin eyJkYXRhIjoiYGBgclxuU3lzLnRpbWV6b25lKClcbmBgYCJ9 -->
+<pre class="r"><code>Sys.timezone()</code></pre>
+<!-- rnb-source-end -->
+<!-- rnb-output-begin eyJkYXRhIjoiWzFdIFwiQXNpYS9UYWlwZWlcIlxuIn0= -->
+<pre><code>[1] &quot;Asia/Taipei&quot;</code></pre>
+<!-- rnb-output-end -->
+<!-- rnb-chunk-end -->
+<!-- rnb-text-begin -->
+<!-- rnb-text-end -->
+<!-- rnb-chunk-begin -->
+<!-- rnb-source-begin eyJkYXRhIjoiYGBgclxudHdEYXRlVGltZSA8LSB5bWRfaG1zKFwiMjAxOS0wMy0xOCAxNDowNDowMFwiLCB0ej1cIkFzaWEvVGFpcGVpXCIpXG5gYGAifQ== -->
+<pre class="r"><code>twDateTime &lt;- ymd_hms(&quot;2019-03-18 14:04:00&quot;, tz=&quot;Asia/Taipei&quot;)</code></pre>
+<!-- rnb-source-end -->
+<!-- rnb-chunk-end -->
+<!-- rnb-text-begin -->
+<!-- rnb-text-end -->
+<!-- rnb-chunk-begin -->
+<!-- rnb-source-begin eyJkYXRhIjoiYGBgclxudHdEYXRlVGltZTwteW1kX2htcyhcIjIwMTktMDMtMjcgMTU6NDM6MTBcIiwgdHo9XCJBc2lhL1RhaXBlaVwiKVxuT3Nsb0RhdGVUaW1lPC13aXRoX3R6KHR3RGF0ZVRpbWUsIHR6b25lPVwiRXVyb3BlL09zbG9cIilcbmBgYCJ9 -->
+<pre class="r"><code>twDateTime&lt;-ymd_hms(&quot;2019-03-27 15:43:10&quot;, tz=&quot;Asia/Taipei&quot;)
+OsloDateTime&lt;-with_tz(twDateTime, tzone=&quot;Europe/Oslo&quot;)</code></pre>
+<!-- rnb-source-end -->
+<!-- rnb-chunk-end -->
+<!-- rnb-text-begin -->
+<!-- rnb-text-end -->
+<!-- rnb-chunk-begin -->
+<!-- rnb-source-begin eyJkYXRhIjoiYGBgclxudHlwZW9mKHByZHQpXG5gYGAifQ== -->
+<pre class="r"><code>typeof(prdt)</code></pre>
+<!-- rnb-source-end -->
+<!-- rnb-output-begin eyJkYXRhIjoiRXJyb3IgaW4gdHlwZW9mKHByZHQpIDogb2JqZWN0ICdwcmR0JyBub3QgZm91bmRcbiJ9 -->
+<pre><code>Error in typeof(prdt) : object 'prdt' not found</code></pre>
+<!-- rnb-output-end -->
+<!-- rnb-chunk-end -->
+<!-- rnb-text-begin -->
+<!-- rnb-text-end -->
+<!-- rnb-chunk-begin -->
+<!-- rnb-source-begin eyJkYXRhIjoiYGBgclxudHdEYXRlVGltZSA8LSB5bWRfaG1zKFwiMjAxOS0wMy0xOCAxNTo0NTowMFwiLCB0ej1cIkFzaWEvVGFpcGVpXCIpXG5BdXN0cmFsaWFEYXRlVGltZSA8LSB3aXRoX3R6KHR3RGF0ZVRpbWUsdHpvbmU9XCJBdXN0cmFsaWEvTEhJXCIpXG5gYGAifQ== -->
+<pre class="r"><code>twDateTime &lt;- ymd_hms(&quot;2019-03-18 15:45:00&quot;, tz=&quot;Asia/Taipei&quot;)
+AustraliaDateTime &lt;- with_tz(twDateTime,tzone=&quot;Australia/LHI&quot;)</code></pre>
+<!-- rnb-source-end -->
+<!-- rnb-chunk-end -->
+<!-- rnb-text-begin -->
+<!-- rnb-text-end -->
+<!-- rnb-chunk-begin -->
+<!-- rnb-source-begin eyJkYXRhIjoiYGBgclxudHdEYXRlVGltZSA8LSB5bWRfaG1zKFwiMjAxOS0wMy0xOCAxNDowNDowMFwiLCB0ej1cIkFzaWEvVGFpcGVpXCIpXG5MaXNib25EYXRlVGltZSA8LSB3aXRoX3R6KHR3RGF0ZVRpbWUsdHpvbmU9XCJFdXJvcGUvTGlzYm9uXCIpXG5gYGAifQ== -->
+<pre class="r"><code>twDateTime &lt;- ymd_hms(&quot;2019-03-18 14:04:00&quot;, tz=&quot;Asia/Taipei&quot;)
+LisbonDateTime &lt;- with_tz(twDateTime,tzone=&quot;Europe/Lisbon&quot;)</code></pre>
+<!-- rnb-source-end -->
+<!-- rnb-chunk-end -->
+<!-- rnb-text-begin -->
 <p>Try executing this chunk by clicking the <em>Run</em> button within the chunk or by placing your cursor inside it and pressing <em>Ctrl+Shift+Enter</em>.</p>
 <!-- rnb-text-end -->
 <!-- rnb-chunk-begin -->
@@ -190,7 +289,7 @@ $(document).ready(function () {
 <p>The preview shows you a rendered HTML copy of the contents of the editor. Consequently, unlike <em>Knit</em>, <em>Preview</em> does not run any R code chunks. Instead, the output of the chunk when it was last run in the editor is displayed.</p>
 <!-- rnb-text-end -->
 
-<div id="rmd-source-code">LS0tDQp0aXRsZTogIjIwMTktMDMtMTAiDQpvdXRwdXQ6IGh0bWxfbm90ZWJvb2sNCi0tLQ0KDQpUaGlzIGlzIGFuIFtSIE1hcmtkb3duXShodHRwOi8vcm1hcmtkb3duLnJzdHVkaW8uY29tKSBOb3RlYm9vay4gV2hlbiB5b3UgZXhlY3V0ZSBjb2RlIHdpdGhpbiB0aGUgbm90ZWJvb2ssIHRoZSByZXN1bHRzIGFwcGVhciBiZW5lYXRoIHRoZSBjb2RlLiANCg0KVHJ5IGV4ZWN1dGluZyB0aGlzIGNodW5rIGJ5IGNsaWNraW5nIHRoZSAqUnVuKiBidXR0b24gd2l0aGluIHRoZSBjaHVuayBvciBieSBwbGFjaW5nIHlvdXIgY3Vyc29yIGluc2lkZSBpdCBhbmQgcHJlc3NpbmcgKkN0cmwrU2hpZnQrRW50ZXIqLiANCg0KYGBge3J9DQpwbG90KGNhcnMpDQpgYGANCg0KQWRkIGEgbmV3IGNodW5rIGJ5IGNsaWNraW5nIHRoZSAqSW5zZXJ0IENodW5rKiBidXR0b24gb24gdGhlIHRvb2xiYXIgb3IgYnkgcHJlc3NpbmcgKkN0cmwrQWx0K0kqLg0KDQpXaGVuIHlvdSBzYXZlIHRoZSBub3RlYm9vaywgYW4gSFRNTCBmaWxlIGNvbnRhaW5pbmcgdGhlIGNvZGUgYW5kIG91dHB1dCB3aWxsIGJlIHNhdmVkIGFsb25nc2lkZSBpdCAoY2xpY2sgdGhlICpQcmV2aWV3KiBidXR0b24gb3IgcHJlc3MgKkN0cmwrU2hpZnQrSyogdG8gcHJldmlldyB0aGUgSFRNTCBmaWxlKS4NCg0KVGhlIHByZXZpZXcgc2hvd3MgeW91IGEgcmVuZGVyZWQgSFRNTCBjb3B5IG9mIHRoZSBjb250ZW50cyBvZiB0aGUgZWRpdG9yLiBDb25zZXF1ZW50bHksIHVubGlrZSAqS25pdCosICpQcmV2aWV3KiBkb2VzIG5vdCBydW4gYW55IFIgY29kZSBjaHVua3MuIEluc3RlYWQsIHRoZSBvdXRwdXQgb2YgdGhlIGNodW5rIHdoZW4gaXQgd2FzIGxhc3QgcnVuIGluIHRoZSBlZGl0b3IgaXMgZGlzcGxheWVkLg0K</div>
+<div id="rmd-source-code">LS0tDQp0aXRsZTogIjIwMTktMDMtMTAiDQpvdXRwdXQ6IGh0bWxfbm90ZWJvb2sNCi0tLQ0KDQpUaGlzIGlzIGFuIFtSIE1hcmtkb3duXShodHRwOi8vcm1hcmtkb3duLnJzdHVkaW8uY29tKSBOb3RlYm9vay4gV2hlbiB5b3UgZXhlY3V0ZSBjb2RlIHdpdGhpbiB0aGUgbm90ZWJvb2ssIHRoZSByZXN1bHRzIGFwcGVhciBiZW5lYXRoIHRoZSBjb2RlLiANCmBgYHtyfQ0KbGlicmFyeShsdWJyaWRhdGUpDQpkdE9iamVjdDwteW1kX2htcygiMTk3MC0wMS0wMSAwMDowMjo1MyIpDQpgYGANCg0KYGBge3J9DQpkdE9iamVjdFZlY3RvcjwteW1kX2htcygNCiAgYygiMTk3MC0wMS0wMSAwMDowMjo1MyIsDQogICAgIjE5ODAtMDItMTEgMTE6MjU6MjIiKQ0KKQ0KYGBgDQoNCmBgYHtyfQ0KY2xhc3MoZHRPYmplY3QpDQpgYGANCg0KYGBge3J9DQpTeXMudGltZXpvbmUoKQ0KYGBgDQoNCmBgYHtyfQ0KU3lzLnRpbWV6b25lKCkNCmBgYA0KDQpgYGB7cn0NCnR3RGF0ZVRpbWUgPC0geW1kX2htcygiMjAxOS0wMy0xOCAxNDowNDowMCIsIHR6PSJBc2lhL1RhaXBlaSIpDQpgYGANCg0KYGBge3J9DQp0d0RhdGVUaW1lPC15bWRfaG1zKCIyMDE5LTAzLTI3IDE1OjQzOjEwIiwgdHo9IkFzaWEvVGFpcGVpIikNCk9zbG9EYXRlVGltZTwtd2l0aF90eih0d0RhdGVUaW1lLCB0em9uZT0iRXVyb3BlL09zbG8iKQ0KYGBgDQoNCmBgYHtyfQ0KdHlwZW9mKHByZHQpDQphcy5kb3VibGUodHdkdCkNCmFzLmRvdWJsZShwcmR0KQ0KYGBgDQoNCmBgYHtyfQ0KdHdEYXRlVGltZSA8LSB5bWRfaG1zKCIyMDE5LTAzLTE4IDE1OjQ1OjAwIiwgdHo9IkFzaWEvVGFpcGVpIikNCkF1c3RyYWxpYURhdGVUaW1lIDwtIHdpdGhfdHoodHdEYXRlVGltZSx0em9uZT0iQXVzdHJhbGlhL0xISSIpDQpgYGANCg0KYGBge3J9DQp0d0RhdGVUaW1lIDwtIHltZF9obXMoIjIwMTktMDMtMTggMTQ6MDQ6MDAiLCB0ej0iQXNpYS9UYWlwZWkiKQ0KTGlzYm9uRGF0ZVRpbWUgPC0gd2l0aF90eih0d0RhdGVUaW1lLHR6b25lPSJFdXJvcGUvTGlzYm9uIikNCmBgYA0KDQpUcnkgZXhlY3V0aW5nIHRoaXMgY2h1bmsgYnkgY2xpY2tpbmcgdGhlICpSdW4qIGJ1dHRvbiB3aXRoaW4gdGhlIGNodW5rIG9yIGJ5IHBsYWNpbmcgeW91ciBjdXJzb3IgaW5zaWRlIGl0IGFuZCBwcmVzc2luZyAqQ3RybCtTaGlmdCtFbnRlciouIA0KDQpgYGB7cn0NCnBsb3QoY2FycykNCmBgYA0KDQpBZGQgYSBuZXcgY2h1bmsgYnkgY2xpY2tpbmcgdGhlICpJbnNlcnQgQ2h1bmsqIGJ1dHRvbiBvbiB0aGUgdG9vbGJhciBvciBieSBwcmVzc2luZyAqQ3RybCtBbHQrSSouDQoNCldoZW4geW91IHNhdmUgdGhlIG5vdGVib29rLCBhbiBIVE1MIGZpbGUgY29udGFpbmluZyB0aGUgY29kZSBhbmQgb3V0cHV0IHdpbGwgYmUgc2F2ZWQgYWxvbmdzaWRlIGl0IChjbGljayB0aGUgKlByZXZpZXcqIGJ1dHRvbiBvciBwcmVzcyAqQ3RybCtTaGlmdCtLKiB0byBwcmV2aWV3IHRoZSBIVE1MIGZpbGUpLg0KDQpUaGUgcHJldmlldyBzaG93cyB5b3UgYSByZW5kZXJlZCBIVE1MIGNvcHkgb2YgdGhlIGNvbnRlbnRzIG9mIHRoZSBlZGl0b3IuIENvbnNlcXVlbnRseSwgdW5saWtlICpLbml0KiwgKlByZXZpZXcqIGRvZXMgbm90IHJ1biBhbnkgUiBjb2RlIGNodW5rcy4gSW5zdGVhZCwgdGhlIG91dHB1dCBvZiB0aGUgY2h1bmsgd2hlbiBpdCB3YXMgbGFzdCBydW4gaW4gdGhlIGVkaXRvciBpcyBkaXNwbGF5ZWQuDQo=</div>
 
 
 
