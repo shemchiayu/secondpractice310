@@ -180,6 +180,10 @@ is.na(y2)
 is.na(y3)
 ```
 
+```{r}
+8/0
+```
+
 Try executing this chunk by clicking the *Run* button within the chunk or by placing your cursor inside it and pressing *Ctrl+Shift+Enter*. 
 
 ```{r}
