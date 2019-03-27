@@ -93,7 +93,11 @@ b <- c(0.5, 12, 2)```
 a <- c(1, 5, -3)
 b <- c(0.5, 12, 2)
 aL <- c(1L, 5L, -3L)
+
 bL <- c(-2L, -4L, 8L)
+```
+
+```{r}
 ```
 
 ```{r}
@@ -109,6 +113,15 @@ a+0.45672574
 ```{r}
 a
 a*439587
+```
+
+```{r}
+twDateTime <- ymd_hms("2019-03-18 14:04:00", tz="Asia/Taipei")
+```
+```{r}
+twDateTime
+
+twDateTime+1
 ```
 
 Try executing this chunk by clicking the *Run* button within the chunk or by placing your cursor inside it and pressing *Ctrl+Shift+Enter*. 
