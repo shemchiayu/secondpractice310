@@ -80,6 +80,10 @@ TWDT <- ymd("2018-09-11")
 TWDT <- mdy("March 3, 2019")
 ```
 
+```{r}
+LisbonDateTime <- ymd("2018-09-11")
+```
+
 Try executing this chunk by clicking the *Run* button within the chunk or by placing your cursor inside it and pressing *Ctrl+Shift+Enter*. 
 
 ```{r}
