@@ -53,6 +53,33 @@ twDateTime <- ymd_hms("2019-03-18 14:04:00", tz="Asia/Taipei")
 LisbonDateTime <- with_tz(twDateTime,tzone="Europe/Lisbon")
 ```
 
+```{r}
+dmy_hms(), dmy_hm(), dmy_h()
+```
+
+```{r}
+typeof(ParisDateTime)
+as.integer(ParisDateTime)
+as.double(ParisDateTime)
+```
+
+```{r}
+TWDT <- dmy_h("27-03-2019 15")
+TWDT
+```
+
+```{r}
+TWDT <- mdy_hms("03-27-2019 15:50:45")
+```
+
+```{r}
+TWDT <- ymd("2018-09-11")
+```
+
+```{r}
+TWDT <- mdy("March 3, 2019")
+```
+
 Try executing this chunk by clicking the *Run* button within the chunk or by placing your cursor inside it and pressing *Ctrl+Shift+Enter*. 
 
 ```{r}

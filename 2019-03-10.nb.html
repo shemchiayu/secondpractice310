@@ -276,6 +276,58 @@ LisbonDateTime &lt;- with_tz(twDateTime,tzone=&quot;Europe/Lisbon&quot;)</code><
 <!-- rnb-source-end -->
 <!-- rnb-chunk-end -->
 <!-- rnb-text-begin -->
+<!-- rnb-text-end -->
+<!-- rnb-chunk-begin -->
+<!-- rnb-source-begin eyJkYXRhIjoiYGBgclxuZG15X2htcygpLCBkbXlfaG0oKSwgZG15X2goKVxuYGBgIn0= -->
+<pre class="r"><code>dmy_hms(), dmy_hm(), dmy_h()</code></pre>
+<!-- rnb-source-end -->
+<!-- rnb-output-begin eyJkYXRhIjoiRXJyb3I6IHVuZXhwZWN0ZWQgJywnIGluIFwiZG15X2htcygpLFwiXG4ifQ== -->
+<pre><code>Error: unexpected ',' in &quot;dmy_hms(),&quot;</code></pre>
+<!-- rnb-output-end -->
+<!-- rnb-chunk-end -->
+<!-- rnb-text-begin -->
+<!-- rnb-text-end -->
+<!-- rnb-chunk-begin -->
+<!-- rnb-source-begin eyJkYXRhIjoiYGBgclxudHlwZW9mKFBhcmlzRGF0ZVRpbWUpXG5gYGAifQ== -->
+<pre class="r"><code>typeof(ParisDateTime)</code></pre>
+<!-- rnb-source-end -->
+<!-- rnb-output-begin eyJkYXRhIjoiRXJyb3IgaW4gdHlwZW9mKFBhcmlzRGF0ZVRpbWUpIDogb2JqZWN0ICdQYXJpc0RhdGVUaW1lJyBub3QgZm91bmRcbiJ9 -->
+<pre><code>Error in typeof(ParisDateTime) : object 'ParisDateTime' not found</code></pre>
+<!-- rnb-output-end -->
+<!-- rnb-chunk-end -->
+<!-- rnb-text-begin -->
+<!-- rnb-text-end -->
+<!-- rnb-chunk-begin -->
+<!-- rnb-source-begin eyJkYXRhIjoiYGBgclxuVFdEVCA8LSBkbXlfaChcIjI3LTAzLTIwMTkgMTVcIilcblRXRFRcbmBgYCJ9 -->
+<pre class="r"><code>TWDT &lt;- dmy_h(&quot;27-03-2019 15&quot;)
+TWDT</code></pre>
+<!-- rnb-source-end -->
+<!-- rnb-output-begin eyJkYXRhIjoiWzFdIFwiMjAxOS0wMy0yNyAxNTowMDowMCBVVENcIlxuIn0= -->
+<pre><code>[1] &quot;2019-03-27 15:00:00 UTC&quot;</code></pre>
+<!-- rnb-output-end -->
+<!-- rnb-chunk-end -->
+<!-- rnb-text-begin -->
+<!-- rnb-text-end -->
+<!-- rnb-chunk-begin -->
+<!-- rnb-source-begin eyJkYXRhIjoiYGBgclxuVFdEVCA8LSBtZHlfaG1zKFwiMDMtMjctMjAxOSAxNTo1MDo0NVwiKVxuYGBgIn0= -->
+<pre class="r"><code>TWDT &lt;- mdy_hms(&quot;03-27-2019 15:50:45&quot;)</code></pre>
+<!-- rnb-source-end -->
+<!-- rnb-chunk-end -->
+<!-- rnb-text-begin -->
+<!-- rnb-text-end -->
+<!-- rnb-chunk-begin -->
+<!-- rnb-source-begin eyJkYXRhIjoiYGBgclxuVFdEVCA8LSB5bWQoXCIyMDE4LTA5LTExXCIpXG5gYGAifQ== -->
+<pre class="r"><code>TWDT &lt;- ymd(&quot;2018-09-11&quot;)</code></pre>
+<!-- rnb-source-end -->
+<!-- rnb-chunk-end -->
+<!-- rnb-text-begin -->
+<!-- rnb-text-end -->
+<!-- rnb-chunk-begin -->
+<!-- rnb-source-begin eyJkYXRhIjoiYGBgclxuVFdEVCA8LSBtZHkoXCJNYXJjaCAzLCAyMDE5XCIpXG5gYGAifQ== -->
+<pre class="r"><code>TWDT &lt;- mdy(&quot;March 3, 2019&quot;)</code></pre>
+<!-- rnb-source-end -->
+<!-- rnb-chunk-end -->
+<!-- rnb-text-begin -->
 <p>Try executing this chunk by clicking the <em>Run</em> button within the chunk or by placing your cursor inside it and pressing <em>Ctrl+Shift+Enter</em>.</p>
 <!-- rnb-text-end -->
 <!-- rnb-chunk-begin -->
@@ -289,7 +341,7 @@ LisbonDateTime &lt;- with_tz(twDateTime,tzone=&quot;Europe/Lisbon&quot;)</code><
 <p>The preview shows you a rendered HTML copy of the contents of the editor. Consequently, unlike <em>Knit</em>, <em>Preview</em> does not run any R code chunks. Instead, the output of the chunk when it was last run in the editor is displayed.</p>
 <!-- rnb-text-end -->
 
-<div id="rmd-source-code">LS0tDQp0aXRsZTogIjIwMTktMDMtMTAiDQpvdXRwdXQ6IGh0bWxfbm90ZWJvb2sNCi0tLQ0KDQpUaGlzIGlzIGFuIFtSIE1hcmtkb3duXShodHRwOi8vcm1hcmtkb3duLnJzdHVkaW8uY29tKSBOb3RlYm9vay4gV2hlbiB5b3UgZXhlY3V0ZSBjb2RlIHdpdGhpbiB0aGUgbm90ZWJvb2ssIHRoZSByZXN1bHRzIGFwcGVhciBiZW5lYXRoIHRoZSBjb2RlLiANCmBgYHtyfQ0KbGlicmFyeShsdWJyaWRhdGUpDQpkdE9iamVjdDwteW1kX2htcygiMTk3MC0wMS0wMSAwMDowMjo1MyIpDQpgYGANCg0KYGBge3J9DQpkdE9iamVjdFZlY3RvcjwteW1kX2htcygNCiAgYygiMTk3MC0wMS0wMSAwMDowMjo1MyIsDQogICAgIjE5ODAtMDItMTEgMTE6MjU6MjIiKQ0KKQ0KYGBgDQoNCmBgYHtyfQ0KY2xhc3MoZHRPYmplY3QpDQpgYGANCg0KYGBge3J9DQpTeXMudGltZXpvbmUoKQ0KYGBgDQoNCmBgYHtyfQ0KU3lzLnRpbWV6b25lKCkNCmBgYA0KDQpgYGB7cn0NCnR3RGF0ZVRpbWUgPC0geW1kX2htcygiMjAxOS0wMy0xOCAxNDowNDowMCIsIHR6PSJBc2lhL1RhaXBlaSIpDQpgYGANCg0KYGBge3J9DQp0d0RhdGVUaW1lPC15bWRfaG1zKCIyMDE5LTAzLTI3IDE1OjQzOjEwIiwgdHo9IkFzaWEvVGFpcGVpIikNCk9zbG9EYXRlVGltZTwtd2l0aF90eih0d0RhdGVUaW1lLCB0em9uZT0iRXVyb3BlL09zbG8iKQ0KYGBgDQoNCmBgYHtyfQ0KdHlwZW9mKHByZHQpDQphcy5kb3VibGUodHdkdCkNCmFzLmRvdWJsZShwcmR0KQ0KYGBgDQoNCmBgYHtyfQ0KdHdEYXRlVGltZSA8LSB5bWRfaG1zKCIyMDE5LTAzLTE4IDE1OjQ1OjAwIiwgdHo9IkFzaWEvVGFpcGVpIikNCkF1c3RyYWxpYURhdGVUaW1lIDwtIHdpdGhfdHoodHdEYXRlVGltZSx0em9uZT0iQXVzdHJhbGlhL0xISSIpDQpgYGANCg0KYGBge3J9DQp0d0RhdGVUaW1lIDwtIHltZF9obXMoIjIwMTktMDMtMTggMTQ6MDQ6MDAiLCB0ej0iQXNpYS9UYWlwZWkiKQ0KTGlzYm9uRGF0ZVRpbWUgPC0gd2l0aF90eih0d0RhdGVUaW1lLHR6b25lPSJFdXJvcGUvTGlzYm9uIikNCmBgYA0KDQpUcnkgZXhlY3V0aW5nIHRoaXMgY2h1bmsgYnkgY2xpY2tpbmcgdGhlICpSdW4qIGJ1dHRvbiB3aXRoaW4gdGhlIGNodW5rIG9yIGJ5IHBsYWNpbmcgeW91ciBjdXJzb3IgaW5zaWRlIGl0IGFuZCBwcmVzc2luZyAqQ3RybCtTaGlmdCtFbnRlciouIA0KDQpgYGB7cn0NCnBsb3QoY2FycykNCmBgYA0KDQpBZGQgYSBuZXcgY2h1bmsgYnkgY2xpY2tpbmcgdGhlICpJbnNlcnQgQ2h1bmsqIGJ1dHRvbiBvbiB0aGUgdG9vbGJhciBvciBieSBwcmVzc2luZyAqQ3RybCtBbHQrSSouDQoNCldoZW4geW91IHNhdmUgdGhlIG5vdGVib29rLCBhbiBIVE1MIGZpbGUgY29udGFpbmluZyB0aGUgY29kZSBhbmQgb3V0cHV0IHdpbGwgYmUgc2F2ZWQgYWxvbmdzaWRlIGl0IChjbGljayB0aGUgKlByZXZpZXcqIGJ1dHRvbiBvciBwcmVzcyAqQ3RybCtTaGlmdCtLKiB0byBwcmV2aWV3IHRoZSBIVE1MIGZpbGUpLg0KDQpUaGUgcHJldmlldyBzaG93cyB5b3UgYSByZW5kZXJlZCBIVE1MIGNvcHkgb2YgdGhlIGNvbnRlbnRzIG9mIHRoZSBlZGl0b3IuIENvbnNlcXVlbnRseSwgdW5saWtlICpLbml0KiwgKlByZXZpZXcqIGRvZXMgbm90IHJ1biBhbnkgUiBjb2RlIGNodW5rcy4gSW5zdGVhZCwgdGhlIG91dHB1dCBvZiB0aGUgY2h1bmsgd2hlbiBpdCB3YXMgbGFzdCBydW4gaW4gdGhlIGVkaXRvciBpcyBkaXNwbGF5ZWQuDQo=</div>
+<div id="rmd-source-code">LS0tDQp0aXRsZTogIjIwMTktMDMtMTAiDQpvdXRwdXQ6IGh0bWxfbm90ZWJvb2sNCi0tLQ0KDQpUaGlzIGlzIGFuIFtSIE1hcmtkb3duXShodHRwOi8vcm1hcmtkb3duLnJzdHVkaW8uY29tKSBOb3RlYm9vay4gV2hlbiB5b3UgZXhlY3V0ZSBjb2RlIHdpdGhpbiB0aGUgbm90ZWJvb2ssIHRoZSByZXN1bHRzIGFwcGVhciBiZW5lYXRoIHRoZSBjb2RlLiANCmBgYHtyfQ0KbGlicmFyeShsdWJyaWRhdGUpDQpkdE9iamVjdDwteW1kX2htcygiMTk3MC0wMS0wMSAwMDowMjo1MyIpDQpgYGANCg0KYGBge3J9DQpkdE9iamVjdFZlY3RvcjwteW1kX2htcygNCiAgYygiMTk3MC0wMS0wMSAwMDowMjo1MyIsDQogICAgIjE5ODAtMDItMTEgMTE6MjU6MjIiKQ0KKQ0KYGBgDQoNCmBgYHtyfQ0KY2xhc3MoZHRPYmplY3QpDQpgYGANCg0KYGBge3J9DQpTeXMudGltZXpvbmUoKQ0KYGBgDQoNCmBgYHtyfQ0KU3lzLnRpbWV6b25lKCkNCmBgYA0KDQpgYGB7cn0NCnR3RGF0ZVRpbWUgPC0geW1kX2htcygiMjAxOS0wMy0xOCAxNDowNDowMCIsIHR6PSJBc2lhL1RhaXBlaSIpDQpgYGANCg0KYGBge3J9DQp0d0RhdGVUaW1lPC15bWRfaG1zKCIyMDE5LTAzLTI3IDE1OjQzOjEwIiwgdHo9IkFzaWEvVGFpcGVpIikNCk9zbG9EYXRlVGltZTwtd2l0aF90eih0d0RhdGVUaW1lLCB0em9uZT0iRXVyb3BlL09zbG8iKQ0KYGBgDQoNCmBgYHtyfQ0KdHlwZW9mKHByZHQpDQphcy5kb3VibGUodHdkdCkNCmFzLmRvdWJsZShwcmR0KQ0KYGBgDQoNCmBgYHtyfQ0KdHdEYXRlVGltZSA8LSB5bWRfaG1zKCIyMDE5LTAzLTE4IDE1OjQ1OjAwIiwgdHo9IkFzaWEvVGFpcGVpIikNCkF1c3RyYWxpYURhdGVUaW1lIDwtIHdpdGhfdHoodHdEYXRlVGltZSx0em9uZT0iQXVzdHJhbGlhL0xISSIpDQpgYGANCg0KYGBge3J9DQp0d0RhdGVUaW1lIDwtIHltZF9obXMoIjIwMTktMDMtMTggMTQ6MDQ6MDAiLCB0ej0iQXNpYS9UYWlwZWkiKQ0KTGlzYm9uRGF0ZVRpbWUgPC0gd2l0aF90eih0d0RhdGVUaW1lLHR6b25lPSJFdXJvcGUvTGlzYm9uIikNCmBgYA0KDQpgYGB7cn0NCmRteV9obXMoKSwgZG15X2htKCksIGRteV9oKCkNCmBgYA0KDQpgYGB7cn0NCnR5cGVvZihQYXJpc0RhdGVUaW1lKQ0KYXMuaW50ZWdlcihQYXJpc0RhdGVUaW1lKQ0KYXMuZG91YmxlKFBhcmlzRGF0ZVRpbWUpDQpgYGANCg0KYGBge3J9DQpUV0RUIDwtIGRteV9oKCIyNy0wMy0yMDE5IDE1IikNClRXRFQNCmBgYA0KDQpgYGB7cn0NClRXRFQgPC0gbWR5X2htcygiMDMtMjctMjAxOSAxNTo1MDo0NSIpDQpgYGANCg0KYGBge3J9DQpUV0RUIDwtIHltZCgiMjAxOC0wOS0xMSIpDQpgYGANCg0KYGBge3J9DQpUV0RUIDwtIG1keSgiTWFyY2ggMywgMjAxOSIpDQpgYGANCg0KVHJ5IGV4ZWN1dGluZyB0aGlzIGNodW5rIGJ5IGNsaWNraW5nIHRoZSAqUnVuKiBidXR0b24gd2l0aGluIHRoZSBjaHVuayBvciBieSBwbGFjaW5nIHlvdXIgY3Vyc29yIGluc2lkZSBpdCBhbmQgcHJlc3NpbmcgKkN0cmwrU2hpZnQrRW50ZXIqLiANCg0KYGBge3J9DQpwbG90KGNhcnMpDQpgYGANCg0KQWRkIGEgbmV3IGNodW5rIGJ5IGNsaWNraW5nIHRoZSAqSW5zZXJ0IENodW5rKiBidXR0b24gb24gdGhlIHRvb2xiYXIgb3IgYnkgcHJlc3NpbmcgKkN0cmwrQWx0K0kqLg0KDQpXaGVuIHlvdSBzYXZlIHRoZSBub3RlYm9vaywgYW4gSFRNTCBmaWxlIGNvbnRhaW5pbmcgdGhlIGNvZGUgYW5kIG91dHB1dCB3aWxsIGJlIHNhdmVkIGFsb25nc2lkZSBpdCAoY2xpY2sgdGhlICpQcmV2aWV3KiBidXR0b24gb3IgcHJlc3MgKkN0cmwrU2hpZnQrSyogdG8gcHJldmlldyB0aGUgSFRNTCBmaWxlKS4NCg0KVGhlIHByZXZpZXcgc2hvd3MgeW91IGEgcmVuZGVyZWQgSFRNTCBjb3B5IG9mIHRoZSBjb250ZW50cyBvZiB0aGUgZWRpdG9yLiBDb25zZXF1ZW50bHksIHVubGlrZSAqS25pdCosICpQcmV2aWV3KiBkb2VzIG5vdCBydW4gYW55IFIgY29kZSBjaHVua3MuIEluc3RlYWQsIHRoZSBvdXRwdXQgb2YgdGhlIGNodW5rIHdoZW4gaXQgd2FzIGxhc3QgcnVuIGluIHRoZSBlZGl0b3IgaXMgZGlzcGxheWVkLg0K</div>
 
 
 
