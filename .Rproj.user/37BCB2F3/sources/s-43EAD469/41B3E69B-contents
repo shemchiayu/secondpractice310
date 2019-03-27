@@ -101,6 +101,16 @@ class(a-bL)
 class(aL*bL)
 ```
 
+```{r}
+a
+a+0.45672574
+```
+
+```{r}
+a
+a*439587
+```
+
 Try executing this chunk by clicking the *Run* button within the chunk or by placing your cursor inside it and pressing *Ctrl+Shift+Enter*. 
 
 ```{r}
