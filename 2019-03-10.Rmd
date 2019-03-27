@@ -121,7 +121,43 @@ twDateTime <- ymd_hms("2019-03-18 14:04:00", tz="Asia/Taipei")
 ```{r}
 twDateTime
 
-twDateTime+1
+twDateTime+650
+```
+
+```{r}
+twDateTime <- ymd("2019-08-11", tz="Asia/Taipei")
+```
+
+```{r}
+twDateTime <- ymd("2000-02-01", tz="Asia/Taiwan")
+```
+
+```{r}
+startingDate + year(1)
+```
+
+```{r}
+startingDate + year(1)
+```
+
+```{r}
+library(startingDate)
+```
+
+```{r}
+x <- 8
+y <- 15
+
+x2 <- c(1,6)
+y2 <- c(-5,9)
+```
+
+```{r}
+x2 < y2
+```
+
+```{r}
+x == y
 ```
 
 Try executing this chunk by clicking the *Run* button within the chunk or by placing your cursor inside it and pressing *Ctrl+Shift+Enter*. 

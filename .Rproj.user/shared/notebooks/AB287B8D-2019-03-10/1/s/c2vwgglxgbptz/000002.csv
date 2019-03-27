@@ -1,0 +1,4 @@
+"0","library(startingDate)"
+"2","Error in library(startingDate) : 
+  there is no package called ‘startingDate’
+"

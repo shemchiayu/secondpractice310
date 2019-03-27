@@ -1,0 +1,4 @@
+"0","twDateTime <- ymd(""2000-02-01"", tz=""Asia/Taiwan"")"
+"2","Error in C_force_tz(time, tz = tzone, roll) : 
+  CCTZ: Unrecognized output timezone: ""Asia/Taiwan""
+"
