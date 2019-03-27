@@ -160,6 +160,15 @@ x2 < y2
 x == y
 ```
 
+```{r}
+x4 <- c(5,7,13)
+y4 <-c(1,5,8,11)
+
+x4 
+y4
+x4 %in% y4
+```
+
 Try executing this chunk by clicking the *Run* button within the chunk or by placing your cursor inside it and pressing *Ctrl+Shift+Enter*. 
 
 ```{r}
