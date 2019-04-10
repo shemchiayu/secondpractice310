@@ -10,6 +10,8 @@ library(stringr)
 
 ```{r}
 installed.packages("stringr")
+a <- 3
+  
 ```
 
 ```{r setup, include=FALSE}
