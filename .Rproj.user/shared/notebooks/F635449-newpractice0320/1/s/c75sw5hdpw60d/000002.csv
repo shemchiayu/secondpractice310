@@ -1,4 +1,0 @@
-"0","install.package(""stringr"")"
-"2","Error in install.package(""stringr"") : 
-  could not find function ""install.package""
-"
