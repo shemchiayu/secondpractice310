@@ -1,0 +1,12 @@
+"0","char1 <- c(""月"",""月"",""月"")"
+"2","Warning message:
+"
+"2","In strsplit(code, ""\n"", fixed = TRUE) :"
+"2","
+ "
+"2"," input string 1 is invalid in this locale
+"
+"0","char2 <- c(""日"",""日"",""日"")"
+"0","month"
+"2","Error: object 'month' not found
+"

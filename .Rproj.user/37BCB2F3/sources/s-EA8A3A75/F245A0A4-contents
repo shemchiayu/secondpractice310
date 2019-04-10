@@ -93,7 +93,22 @@ library(stringr)
 ```
 
 ```{r}
-install.package("stringr")
+install.packages("stringr")
+```
+
+```{r}
+a <- str_c(username,reponame,sep = "/")
+str_c("https://github.com",a,sep = "/")
+```
+
+```{r}
+char1 <- c("月","月","月")
+char2 <- c("日","日","日")
+month
+char1
+day 
+char2
+str_c(month,char1,day,char2)
 ```
 
 ```{r}

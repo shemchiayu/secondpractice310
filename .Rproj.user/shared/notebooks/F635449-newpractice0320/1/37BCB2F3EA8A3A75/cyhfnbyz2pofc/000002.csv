@@ -1,0 +1,4 @@
+"0","a <- str_c(username,reponame,sep = ""/"")"
+"2","Error in str_c(username, reponame, sep = ""/"") : 
+  could not find function ""str_c""
+"
