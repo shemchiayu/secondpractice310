@@ -1,0 +1,12 @@
+"0","str_subset(course,""經濟學"")"
+"2","Error in str_subset(course, ""經濟學"") : 
+  could not find function ""str_subset""
+"
+"2","In addition: "
+"2","Warning message:
+"
+"2","In strsplit(code, ""\n"", fixed = TRUE) :"
+"2","
+ "
+"2"," input string 1 is invalid in this locale
+"

@@ -1,29 +1,20 @@
-"0","installed.packages(""stringr"")"
-"1","    "
-"1"," Package"
-"1"," LibPath"
-"1"," Version"
-"1"," Priority"
-"1"," Depends"
-"1"," Imports"
-"1"," LinkingTo"
-"1"," Suggests"
-"1"," Enhances"
+"0","install.packages(""stringr"")"
+"2","Installing package into ¡¥C:/Users/user/Documents/R/win-library/3.5¡¦
+(as ¡¥lib¡¦ is unspecified)
+"
+"2","trying URL 'https://cran.rstudio.com/bin/windows/contrib/3.5/stringr_1.4.0.zip'
+"
+"2","Content type 'application/zip'"
+"2"," length 215469 bytes (210 KB)
+"
+"2","downloaded 210 KB
+
+"
+"1","package â€˜stringrâ€™ successfully unpacked and MD5 sums checked
+"
 "1","
 "
-"1","    "
-"1"," License"
-"1"," License_is_FOSS"
-"1"," License_restricts_use"
-"1"," OS_type"
-"1"," Archs"
-"1"," MD5sum"
+"1","The downloaded binary packages are in
+	C:\Users\user\AppData\Local\Temp\RtmpcXo2aZ\downloaded_packages"
 "1","
 "
-"1","    "
-"1"," NeedsCompilation"
-"1"," Built"
-"1","
-"
-"0","a <- 3"
-"0","  "
