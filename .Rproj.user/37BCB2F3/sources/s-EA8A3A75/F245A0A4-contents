@@ -171,3 +171,12 @@ dates<-str_c(str_sub(ys,1,4),m,sep="/")
 dates
 ```
 
+```{r}
+str_split(民國年月,"/")
+year <- "099"
+month <- str_sub(民國年月,5,6)
+year2 <- as.integer(year)+1911
+year2
+str_c(year2,"/",month)
+```
+
