@@ -6,6 +6,7 @@ output: html_document
 ---
 ```{r}
 library(stringr)
+
 ```
 
 ```{r}
@@ -90,10 +91,16 @@ install.package("stringr")
 
 ```{r}
 library(stringr)
+?str_sub
+str_sub("asdf",1,2)
 ```
 
 ```{r}
 install.packages("stringr")
+```
+
+```{r}
+
 ```
 
 ```{r}

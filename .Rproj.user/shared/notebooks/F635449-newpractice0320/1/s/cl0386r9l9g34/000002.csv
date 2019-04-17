@@ -1,5 +1,35 @@
 "0","studentID<-c("
 "0","  '410177115','410176080','410174233','410177011','410182045','410176014')"
 "0","str_sub"
-"2","Error: object 'str_sub' not found
+"1","function (string, start = 1L, end = -1L) 
+"
+"1","{
+"
+"1","    if (is.matrix(start)) {
+"
+"1","        stri_sub(string, from = start)
+"
+"1","    }
+"
+"1","    else {
+"
+"1","        stri_sub(string, from = start, to = end)
+"
+"1","    }
+"
+"1","}
+"
+"1","<bytecode: 0x000000000979a278>
+"
+"1","<environment: namespace:stringr>
+"
+"0","str_sub(studentID,5,6)"
+"1","[1]"
+"1"," ""77"""
+"1"," ""76"""
+"1"," ""74"""
+"1"," ""77"""
+"1"," ""82"""
+"1"," ""76"""
+"1","
 "

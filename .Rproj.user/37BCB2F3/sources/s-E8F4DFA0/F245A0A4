@@ -5,16 +5,16 @@
     "dirty" : false,
     "encoding" : "UTF-8",
     "folds" : "",
-    "hash" : "1722608895",
+    "hash" : "0",
     "id" : "F245A0A4",
-    "lastKnownWriteTime" : 1554886931,
-    "last_content_update" : 1554886931541,
+    "lastKnownWriteTime" : 1554975068,
+    "last_content_update" : 1554975080863,
     "path" : "~/GitHub/secondpractice310/newpractice0320.Rmd",
     "project_path" : "newpractice0320.Rmd",
     "properties" : {
-        "cursorPosition" : "179,22",
+        "cursorPosition" : "6,6",
         "last_setup_crc32" : "",
-        "scrollLine" : "159"
+        "scrollLine" : "0"
     },
     "relative_order" : 2,
     "source_on_save" : false,

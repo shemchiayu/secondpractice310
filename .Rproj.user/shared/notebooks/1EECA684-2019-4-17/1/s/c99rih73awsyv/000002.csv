@@ -1,0 +1,3 @@
+"0","grade >= 60 -> credit== credit"
+"2","Error in credit == credit <- grade >= 60 : could not find function ""==<-""
+"
