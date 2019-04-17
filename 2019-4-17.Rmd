@@ -35,6 +35,17 @@ a[[1]]
 ```
 
 ```{r}
+成績單
+成績單[c(FALSE,TRUE,TRUE)]
+plasticContainer[c(T,F,T)]
+```
+$只能拿來取LIST裡面的東西
+```{r}
+plasticContainer$greenBox
+plasticContainer[["greenBox"]]
+```
+
+```{r}
 studentRecord <-
   list(
     學號="410073058",
