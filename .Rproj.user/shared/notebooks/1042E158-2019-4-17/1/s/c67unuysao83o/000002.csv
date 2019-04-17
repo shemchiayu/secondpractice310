@@ -1,0 +1,20 @@
+"0","library(readr)"
+"2","package ¡¥readr¡¦ was built under R version 3.5.3"
+"2","Warning message:
+"
+"2","In strsplit(code, ""\n"", fixed = TRUE) :"
+"2","
+ "
+"2"," input string 1 is invalid in this locale
+"
+"0","filmVotingData <- read_csv(""https://raw.githubusercontent.com/tpemartin/github-data/master/podcastcompetition3.csv"")"
+"2","Parsed with column specification:
+cols(
+  Timestamp = [31mcol_character()[39m,
+  `¥X¥Í¦è¤¸¦~¤ë¤é¡]ÅçÃÒ¥»¤H¥Î¡^` = [31mcol_character()[39m,
+  ½Ð¿ï¾Ü§A³Ì³ßÅwªº¼v¤ù¤G³¡ = [31mcol_character()[39m
+)
+"
+"0","str_replace(filmVotingData$è«‹é¸æ“‡ä½ æœ€å–œæ­¡çš„å½±ç‰‡äºŒéƒ¨,"", by"","" by"") -> favoriteTwo"
+"0","birthday <- filmVotingData$`å‡ºç”Ÿè¥¿å…ƒå¹´æœˆæ—¥ï¼ˆé©—è­‰æœ¬äººç”¨ï¼‰`"
+"0","timeStamp <- filmVotingData$Timestamp"
