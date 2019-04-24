@@ -1,0 +1,13 @@
+"0","library(readr)"
+"0","classSurvey <- read_csv(""https://raw.githubusercontent.com/tpemartin/github-data/master/classSurvey.csv"")"
+"2","Parsed with column specification:
+cols(
+  Timestamp = [31mcol_character()[39m,
+  ¾Ç¸¹ = [32mcol_double()[39m,
+  ©~¦í¦a¦æ¬F°Ï = [31mcol_character()[39m,
+  ©Ê§O = [31mcol_character()[39m,
+  ¥»¾Ç´Á¾Ç¤À¼Æ = [32mcol_double()[39m,
+  ¥»¾Ç´Á¥Ø«e¤w°Ñ¥[¤§½Ò¥~¬¡°Ê = [31mcol_character()[39m
+)
+"
+"0","classSurvey[c(1:60),c(4,5)]"

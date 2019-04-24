@@ -158,6 +158,55 @@ StuList <- list(
   )
 StuList 
 StuList[[2]][3]
+
+```{r}
+arma
+arma[c(1,4),c(2,3)]
+```
+```{r}
+arma <- matrix(chosenletters,4,6)
+arma
+CHOSENLETTERS<-letters[1:12] #一個中括號是取一組、多個元素(:) 或是在一個矩陣中取某個元素(,)
+
+EXAMPLE<-matrix(
+  CHOSENLETTERS,4,3
+)
+EXAMPLE
+
+arma
+arma[c(1,4),c(2,3)]
+
+```
+
+```{r}
+
+chosenletters <- LETTERS[1:22]
+chosenletters
+```
+
+```{r}
+library(readr)
+classSurvey <- read_csv("https://raw.githubusercontent.com/tpemartin/github-data/master/classSurvey.csv")
+classSurvey[c(1:60),c(4,5)]
+classSurvey[,c(4,5)]
+classSurvey[,4:5]
+
+```
+
+```{r}
+LETTERS
+chosenLETTERS <- LETTERS[1:8]
+m <- matrix(chosenLETTERS,2,4)
+m
+tolower(m) # 轉成小寫
+m
+toupper(m) # 轉成大寫
+m
+```
+```{r}
+arma
+arma[c(1,4),c(2,3)]
+
 ```
 
 
@@ -166,6 +215,9 @@ knitr::opts_chunk$set(echo = TRUE)
 ```
 
 ## R Markdown
+```{r}
+
+```
 
 This is an R Markdown document. Markdown is a simple formatting syntax for authoring HTML, PDF, and MS Word documents. For more details on using R Markdown see <http://rmarkdown.rstudio.com>.
 
