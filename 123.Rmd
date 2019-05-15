@@ -47,6 +47,10 @@ StuDF <- data.frame(
   )
 StuD
 ```
+```{r}
+logiAsiaCrisis <- exData3$isAsiaCrisis
+exData3[logiAsiaCrisis, ]
+```
 
 ## Including Plots
 
