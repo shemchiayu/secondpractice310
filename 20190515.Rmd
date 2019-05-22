@@ -35,6 +35,61 @@ exData3$期間 <- ymd(exData3$期間)
 class(exData3$期間)
 ```
 
+```{r}
+b2 <- list(
+  元素1=c(1,4,9),
+  元素2=c("Hello"),
+  元素3=c(T,T,F,F,F,T,T)
+)
+b2
+b2[c(2,4)] <- list(
+  c("Hi","How are you?"),
+  c(-1,-2)
+)
+b2
+```
+
+```{r}
+logiAsiaCrisis <- exData3$isAsiaCrisis
+exData3[logiAsiaCrisis, ]
+```
+
+```{r}
+library(readr)
+transcriptDataFinal <- read_csv("https://raw.githubusercontent.com/tpemartin/github-data/master/transcriptDataFinal.csv")
+
+```
+
+```{r}
+myfunction<-function(x,α){
+  sumvalue<-x+α
+  return(sumvalue)
+}
+myfunction(3,9)
+```
+
+```{r}
+youngandbeautiful <- function(y,g){
+  value <- y*g
+  return(value)
+}
+youngandbeautiful(98,11)
+```
+
+```{r}
+idontwannabeyouanymore <- function(i,l){
+  value2 <- i*l
+  return(value2)
+}
+idontwannabeyouanymore(1,2)
+```
+
+```{r}
+supply_function(p=1,3,4)
+demand_function(p=5,3,7)
+supply_function(p=1,3,4)-demand_function(p=5,3,7)
+```
+
 ```{r setup, include=FALSE}
 knitr::opts_chunk$set(echo = TRUE)
 ```
